@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Online tourism management project in java with source code and project report - Codebun</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Online tourism management project in java with source code and project report - Codebun" />
+	<meta property="og:description" content="An online tourism management project in java is a web application following MVC architecture and the Maven tool. so here is another college project for computer science students. The tourism management project is using JSP,&hellip;" />
+	<meta property="og:url" content="https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/" />
+	<meta property="og:site_name" content="Codebun" />
+	<meta property="article:author" content="https://www.facebook.com/bhupi89" />
+	<meta property="article:published_time" content="2020-04-12T07:49:26+00:00" />
+	<meta property="article:modified_time" content="2021-05-29T05:48:04+00:00" />
+	<meta property="og:image" content="https://codebun.com/wp-content/uploads/2020/04/Online-Tourism-Management-Project-in-Java.png" />
+	<meta property="og:image:width" content="450" />
+	<meta property="og:image:height" content="350" />
+	<meta name="twitter:card" content="summary" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://codebun.com/#website","url":"https://codebun.com/","name":"Codebun","description":"","potentialAction":[{"@type":"SearchAction","target":"https://codebun.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"ImageObject","@id":"https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/#primaryimage","inLanguage":"en-GB","url":"https://codebun.com/wp-content/uploads/2020/04/Online-Tourism-Management-Project-in-Java.png","width":450,"height":350},{"@type":"WebPage","@id":"https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/#webpage","url":"https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/","name":"Online tourism management project in java with source code and project report - Codebun","isPartOf":{"@id":"https://codebun.com/#website"},"primaryImageOfPage":{"@id":"https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/#primaryimage"},"datePublished":"2020-04-12T07:49:26+00:00","dateModified":"2021-05-29T05:48:04+00:00","author":{"@id":"https://codebun.com/#/schema/person/bfd7c5412b4ca90346817519e183ba02"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/"]}]},{"@type":"Person","@id":"https://codebun.com/#/schema/person/bfd7c5412b4ca90346817519e183ba02","name":"Bhupendra Patidar","image":{"@type":"ImageObject","@id":"https://codebun.com/#personlogo","inLanguage":"en-GB","url":"https://secure.gravatar.com/avatar/74c160c6ddeb5ad1415edf50973c6f4e?s=96&d=mm&r=g","caption":"Bhupendra Patidar"},"description":"I am Bhupendra Patidar, full-stack Java developer, and Automation engineer. I am enjoying programming since last 6 years and sharing my experiences with the community. Thank You to visit this article:). Reach me over the Skype: jcodebun, Mail: jcodebun@gmail.com","sameAs":["https://www.facebook.com/bhupi89"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Codebun &raquo; Feed" href="https://codebun.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Codebun &raquo; Comments Feed" href="https://codebun.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Codebun &raquo; Online tourism management project in java with source code and project report Comments Feed" href="https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/codebun.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=09b5c823d5bb4f5888c104dfece82bc0"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://codebun.com/wp-includes/css/dist/block-library/style.min.css?ver=09b5c823d5bb4f5888c104dfece82bc0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://codebun.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='post_hit_counter-frontend-css'  href='https://codebun.com/wp-content/plugins/post-hit-counter/assets/css/frontend.css?ver=1.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm-comptable-styles-css'  href='https://codebun.com/wp-content/plugins/table-maker/css/style.css?ver=1.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSImainCss-css'  href='https://codebun.com/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=09b5c823d5bb4f5888c104dfece82bc0' type='text/css' media='all' />
+<link rel='stylesheet' id='allium-bootstrap-custom-css'  href='https://codebun.com/wp-content/themes/diwp/css/bootstrap-custom.css?ver=09b5c823d5bb4f5888c104dfece82bc0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='https://codebun.com/wp-content/themes/diwp/css/fontawesome-all.css?ver=09b5c823d5bb4f5888c104dfece82bc0' type='text/css' media='all' />
+<link rel='stylesheet' id='allium-fonts-css'  href='https://fonts.googleapis.com/css?family=Nunito+Sans%3A400%2C400i%2C700%2C700i%7CRoboto%3A400%2C400i%2C700%2C700i&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='allium-style-css'  href='https://codebun.com/wp-content/themes/diwp-child/style.css?ver=09b5c823d5bb4f5888c104dfece82bc0' type='text/css' media='all' />
+<style id='allium-style-inline-css' type='text/css'>
+.credits-designer { clip: rect(1px, 1px, 1px, 1px); position: absolute; }
+</style>
+<link rel='stylesheet' id='post_hit_counter-widget-css'  href='https://codebun.com/wp-content/plugins/post-hit-counter/assets/css/widget.css?ver=1.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='enlighterjs-css'  href='https://codebun.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=kSrJULevIh39w2b' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css'  href='https://codebun.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=13.4.1.1' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<script type='text/javascript' src='https://codebun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://codebun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp-child/js/diwp-custom.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/codebun.com\/wp-admin\/admin-ajax.php","security":"929c32bada","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/codebun.com\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/codebun.com\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"13.4.1.1","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=13.4.1.1'></script>
+<link rel='https://api.w.org/' href='https://codebun.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://codebun.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://codebun.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://codebun.com/?p=2706' />
+<link rel="alternate" type="application/json+oembed" href="https://codebun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcodebun.com%2Fonline-tourism-management-project-in-java-with-source-code-and-project-report%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://codebun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcodebun.com%2Fonline-tourism-management-project-in-java-with-source-code-and-project-report%2F&#038;format=xml" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132862789-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-132862789-1');
+</script><meta name="follow.it-verification-code-VE5xUUZ1U2MxVFlJcU9UT2o1UTVUb3hhamtRVzBNa0NtUGhWNFZueml0S0RHdHNqc25PbGVQYVRaM01pbHhiNm9XUEJtdE54RVdoWTlEZHlOTFRLUHFxNnFhMW9tUmFLK3ZKYXgwaDlaUTV6RlNodi9CYktWYi9pNFFsNXdVVmR8WFkrNUZOY0hVRDdQQUNVakdNczFBMDJqMXFIL1R0dE5xbStYaWI3bUxMMD0=" content="m1pydadJkfTfTpVzH2pq"/>	<style type="text/css">
+		
+		.site-title a, .site-title a:visited{
+			color: #0083ef		}
+
+		a, a:visited {
+			color: #0083ef		}
+
+		a:hover, a:focus, a:active{
+			color: #0083ef
+		}
+
+		.entry-meta a:hover, .entry-meta a:focus, .entry-meta a:active{
+			color: #0083ef		}
+
+		.entry-meta .entry-meta-icon::before, .entry-meta .entry-meta-icon a::before{
+			color: #0083ef		}
+
+		.entry-title a:hover, .entry-title a:focus, .entry-title a:active, .page-title a:hover, .page-title a:focus, .page-title a:active{
+			color: #0083ef		}
+
+		.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6{ 
+			color: #0083ef		}
+
+		.entry-content a:hover{
+			border-bottom:1px solid #0083ef; 
+		}
+
+		.page-header-wrapper .page-header .page-title .page-title-value{
+			color: #0083ef		}
+
+		.post-navigation .meta-nav{
+			color: #0083ef		}
+
+		.post-navigation a:hover, .post-navigation a:focus, .post-navigation a:active{
+			color: #0083ef		}
+
+		.sidebar .widget a:hover, .sidebar .widget a:focus, .sidebar .widget a:active{
+			color: #0083ef		}
+
+		.pagination .current.page-numbers, .pagination .page-numbers:hover{
+			background: #0083ef;
+		}
+
+		button, input[type="button"], input[type="reset"], input[type="submit"]{
+			background: #0083ef;
+			
+		}
+
+		button:hover, button:focus, button:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active{
+
+			background: #0083ef;
+		}
+
+		blockquote{
+			border-left: 6px solid #0083ef;
+		}
+
+		.credits-wrapper .credits-blog a:hover, .credits-wrapper .credits-blog a:focus, .credits-wrapper .credits-blog a:active{
+			color: #0083ef;
+		}
+
+		.more-link-wrapper .more-link, .more-link-wrapper .more-link:visited{
+			color: #0083ef;
+		}
+
+		.more-link-wrapper .more-link:hover, .more-link-wrapper .more-link:focus, .more-link-wrapper .more-link:active{
+			color: #0083ef;
+		}
+
+		.search-form .search-submit, .search-form .search-submit:hover{
+			background: #0083ef;	
+		}
+
+		.sf-menu > li > a:hover, .sf-menu > li > a:focus, .sf-menu > li > a:active{
+		  color: #0083ef;
+		}
+
+		.sf-menu > li.current_page_item > a,
+		.sf-menu > li.current-menu-item > a,
+		.sf-menu > li.current_page_ancestor > a,
+		.sf-menu > li.current-menu-ancestor > a,
+		.sf-menu > li.current-menu-parent > a {
+		    color: #0083ef;
+		}
+
+		.sf-menu > li li.current_page_item > a,
+		.sf-menu > li li.current-menu-item > a,
+		.sf-menu > li li.current_page_ancestor > a,
+		.sf-menu > li li.current-menu-ancestor > a,
+		.sf-menu > li li.current-menu-parent > a {
+		    color: #0083ef;
+		}
+
+		#primary #post-wrapper .page-header h2{
+			 color: #0083ef;
+		}	
+		
+		.sf-menu ul a:hover, .sf-menu ul a:focus, .sf-menu ul a:active{
+  			color: #0083ef;
+		}
+
+		.site-header-menu-responsive{
+			background: #0083ef;
+		}
+
+		.footer-menu-wrapper ul li a:hover{
+			color: #0083ef;
+		}
+
+		.top-menu a:hover, .top-menu a:focus, .top-menu a:active{
+			color: #0083ef;
+		}
+
+		.header-search-form-wrapper .search-form .search-field{
+			background: #0083ef;
+		}
+
+		.entry-author{
+
+}	
+	</style>
+<link rel="pingback" href="https://codebun.com/xmlrpc.php">
+	
+	<link rel="icon" href="https://codebun.com/wp-content/uploads/2017/09/cropped-favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://codebun.com/wp-content/uploads/2017/09/cropped-favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://codebun.com/wp-content/uploads/2017/09/cropped-favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://codebun.com/wp-content/uploads/2017/09/cropped-favicon-1-270x270.png" />
+</head>
+
+<body class="post-template-default single single-post postid-2706 single-format-standard group-blog singular has-site-branding has-wide-layout has-right-sidebar elementor-default elementor-kit-3918">
+<div id="page" class="site-wrapper site">
+
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+
+					<div class="site-header-inside-wrapper">
+						
+<div class="site-branding-wrapper">
+	
+	<div class="site-branding">
+					<h1 class="site-title"><a href="https://codebun.com/" title="Codebun" rel="home">Codebun</a></h1>
+		
+			</div>
+</div><!-- .site-branding-wrapper -->
+
+						
+<nav id="site-navigation" class="main-navigation" role="navigation">
+	<div class="main-navigation-inside">
+
+		<div class="toggle-menu-wrapper">
+			<div class="mobile-menu-control"></div>
+			<div class="mobile-menu-search-icon"></div>
+		</div>
+
+
+		<div class="site-header-menu"><ul id="menu-1" class="header-menu sf-menu"><li id="menu-item-366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a href="/">Home</a></li>
+<li id="menu-item-1368" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1368"><a href="https://codebun.com/category/automation/">Automation</a>
+<ul class="sub-menu">
+	<li id="menu-item-1991" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1991"><a href="https://codebun.com/category/automation/selenium-web-driver-with-java/">Selenium Web Driver With Java</a></li>
+	<li id="menu-item-1992" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1992"><a href="https://codebun.com/category/selenium-web-driver-with-c/">Selenium Web Driver With C#</a></li>
+	<li id="menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="https://codebun.com/katalon-studio-tutorial/">Katalon studio</a></li>
+	<li id="menu-item-2871" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2871"><a href="https://codebun.com/category/automation/puppeteer-and-jest-automation/">Puppeteer and Jest</a></li>
+</ul>
+</li>
+<li id="menu-item-343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-343"><a href="https://codebun.com/category/java/">Java</a>
+<ul class="sub-menu">
+	<li id="menu-item-341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-341"><a href="https://codebun.com/category/jsp/">JSP</a></li>
+</ul>
+</li>
+<li id="menu-item-337" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-337"><a href="https://codebun.com/category/complete-java-project-with-source-code/">Projects</a>
+<ul class="sub-menu">
+	<li id="menu-item-1990" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1990"><a href="https://codebun.com/category/complete-java-project-with-source-code/">Project In Java</a></li>
+	<li id="menu-item-3030" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3030"><a href="https://codebun.com/category/project-in-hibernate/">Project In Hibernate</a></li>
+	<li id="menu-item-3031" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3031"><a href="https://codebun.com/category/project-in-spring/">Project in spring</a></li>
+	<li id="menu-item-3035" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3035"><a href="https://codebun.com/category/php-project-with-source-code/">PHP Project</a></li>
+	<li id="menu-item-1717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1717"><a href="https://codebun.com/java-web-project-with-source-code/">Java web project with source code | Java web application</a></li>
+</ul>
+</li>
+<li id="menu-item-577" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-577"><a href="https://codebun.com/category/problem-solving/">Problem Solving</a>
+<ul class="sub-menu">
+	<li id="menu-item-1516" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1516"><a href="https://codebun.com/category/problem-solving/">Java program</a></li>
+	<li id="menu-item-1057" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1057"><a href="https://codebun.com/category/visual-basic-programs/">VB Program</a></li>
+	<li id="menu-item-2543" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2543"><a href="https://codebun.com/category/problem-solving/c-program/">C# Program</a></li>
+</ul>
+</li>
+<li id="menu-item-2384" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2384"><a href="https://codebun.com/category/placement/">Placement</a>
+<ul class="sub-menu">
+	<li id="menu-item-2408" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2408"><a href="https://codebun.com/category/placement/computer-programming/">Computer || Programming</a></li>
+	<li id="menu-item-2410" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2410"><a href="https://codebun.com/category/placement/maths/">Maths</a></li>
+	<li id="menu-item-2411" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2411"><a href="https://codebun.com/category/placement/reasoning/">Reasoning</a></li>
+	<li id="menu-item-2409" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2409"><a href="https://codebun.com/category/placement/english/">English</a></li>
+</ul>
+</li>
+<li id="menu-item-3227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3227"><a href="https://codebun.com/category/interview-questions-and-answers-for-cs-students/">Interview Q&#038;A</a>
+<ul class="sub-menu">
+	<li id="menu-item-3228" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3228"><a href="https://codebun.com/category/c-interview-questions-and-answer/">C Interview Questions and Answer</a></li>
+	<li id="menu-item-3229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3229"><a href="https://codebun.com/category/data-structure/">Data Structure Q &#038; A</a></li>
+	<li id="menu-item-3247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3247"><a href="https://codebun.com/category/operating-system-interview-qa/">Operating System Interview Q&#038;A</a></li>
+	<li id="menu-item-3233" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3233"><a href="https://codebun.com/category/html-and-css-qa/">HTML and CSS Q&#038;A</a></li>
+</ul>
+</li>
+<li class="search">
+   					<a class="search-icon"><i class="fa fa-search"></i></a>
+   				 </li></ul></div>
+	</div><!-- .main-navigation-inside -->
+</nav><!-- .main-navigation -->
+					</div><!-- .site-header-inside-wrapper -->
+
+				</div><!-- .col -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</header><!-- #masthead -->
+
+	<div class="header-search-form-wrapper">
+		<form role="search" method="get" class="search-form" action="https://codebun.com/">
+	<label>
+
+		<input type="search" class="search-field" placeholder="Type &amp; Search Codebun..." value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form>	</div>
+
+	<!-- 
+	<div class="container" style="text-align:center; padding-top:45px;">
+		<a href="https://www.a3logics.com/qa-and-software-testing-services" target="_blank"><img src="https://codebun.com/wp-content/uploads/2020/10/CTA-min.jpg"/></a>
+	</div>
+	
+	-->
+	
+	<div id="content" class="site-content">
+
+	<div class="site-content-inside">
+		<div class="container">
+			<div class="row">
+
+				<div id="primary" class="content-area col-16 col-sm-16 col-md-16 col-lg-11 col-xl-11 col-xxl-11">
+					<main id="main" class="site-main" role="main">
+
+						<div id="post-wrapper" class="post-wrapper post-wrapper-single post-wrapper-single-post">
+												
+							
+<div class="post-wrapper-hentry">
+	<article id="post-2706" class="post-2706 post type-post status-publish format-standard has-post-thumbnail hentry category-complete-java-project-with-source-code tag-online-tourism-management-project-in-java tag-tour-and-travel-management-project-in-java tag-tour-and-travel-project-in-java">
+		<div class="post-content-wrapper post-content-wrapper-single post-content-wrapper-single-post">
+
+			<div class="entry-header-wrapper">
+				<header class="entry-header">
+					<h1 class="entry-title">Online tourism management project in java with source code and project report</h1>				</header><!-- .entry-header -->
+
+				<div class="entry-meta entry-meta-header-after">
+									</div><!-- .entry-meta -->
+			</div><!-- .entry-header-wrapper -->
+
+			<div class="entry-content">
+								<p>An <strong>online tourism management project in java</strong> is a web application following <strong>MVC</strong> architecture and the <strong>Maven</strong> tool. so here is another college project for computer science students. The <strong>tourism management project is using JSP, servlet, MYSQL, and Eclipse or NetBeans. </strong></p>
+<p><strong>Online tourism management</strong> is a good idea to choose a minor or major project for final year students. or for if you want to learn java web development. because this java project is using all the required web technologies that are used to build a web application in Java.</p>
+<p>Let&#8217;s have look at the feature and functionalities of Online tourism management in detail.</p><div class='code-block code-block-2' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1471627484549287"
+     data-ad-slot="2095849338"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<h2><strong>Tourism management p</strong>roject overview</h2>
+<p>Well, We all know these days everyone loves to travel or explore new places. At the same time tourist are worried about the accommodation and find the best and secure places to stay or spend the best holidays.</p>
+<p><strong>Online Tourism Management System</strong> will come with some solution that going to solve lots of problems like a tourist can book his holiday packages before leaving the own house. That Includes all the accommodation and the in-depth details about the places and the hotels.</p>
+<p>This is a web application and programmed in Java. using JSP, HTML, CSS, Servlet, MYSQL and deployed over the tomcat server. It using MVC architecture to manage the resources and files and using the Maven tool to manage the dependencies.</p>
+<p>Let&#8217;s highlight some key points about the tourism management system in java.</p>
+<ul>
+<li>Users can view all the places according to the location or types of holidays and adventure.</li>
+<li>Users can estimate the price or select any holiday package according to the requirement.</li>
+<li>The online tourism management system will take responsibility for all the needful things about the customer requirement.</li>
+<li>A centralized admin can manage all the actors of the application like hotel managers, Places manager,s or all types of customers.</li>
+</ul>
+<h2><strong>Tourism management p</strong>roject Modules.</h2>
+<h3><strong>Tourist Or User</strong></h3>
+<p>Tourist is the main module of the application. tourists can view the packages and book any selected package according to the requirement. the User can explore the place virtually by using images or video clips.</p>
+<p>Users can log in and register in the application at any time from anywhere and check the booking history also can make a new booking.</p>
+<h3>Holiday packages</h3>
+<p>The holiday package is the main born of the system that contains all the details about the places like images, name of the place, description, Price, duration in days or hours, and the adventure that the user can do at that place ETC.</p><div class='code-block code-block-5' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1471627484549287"
+     data-ad-slot="2095849338"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>Images will help the user to explore the place and find some positive gestures about the place or we have another option here to add video clips about the place that also will be a good idea. We can keep this for future enhancement.</p>
+<h3>Travel Agent</h3>
+<p>This module contains all the details about the travel agents according to the locations. Travel agents also can register as new users and log in as an existing user in the application at the same time travel agent can delete or update personal details. Users can find the contact details of the travel agent and contact them.</p>
+<h2>Actors of application</h2>
+<p>mainly there are 3 actors of the application let&#8217;s discuss the role and responsibility of the actors in detail.</p>
+<p><strong>Admin</strong></p>
+<ul>
+<li>Admin will be the root user of the application that can manage all the other users or data of the application. like an admin can manage all the users or tourists.</li>
+<li>Admin can Edit, Delete, Update the user.</li>
+<li>Admin can edit, delete and update the tourist places.</li>
+<li>Admin can edit, delete and update the hotels or the hotel managers.</li>
+</ul>
+<p><strong>User:</strong></p>
+<ul>
+<li>Users can Register in the application.</li>
+<li>Users can log in to the application.</li>
+<li>Users can view all the tourist places.</li>
+<li>Users can make bookings of any holiday package.</li>
+<li>Users can make payments online.</li>
+</ul>
+<p>Manager:</p>
+<ul>
+<li>The manager can Add, Edit, update new places.</li>
+<li>The manager can Add images about the places.</li>
+<li>The manager can check the booking according to location.</li>
+<li>The manager can arrange the agent details.</li>
+</ul>
+<p>Let’s see the technologies and software that are used to build this web application.</p>
+<h2>Technologies</h2>
+<p><strong>Front-End :</strong> JSP, Html, CSS, JS.<br />
+<strong>Server-side:</strong> Servlet.<br />
+<strong>Back-end:</strong> MYSQL.<br />
+<strong>Server:</strong> Tomcat 8.5.</p>
+<h1>Contact to get the source code</h1>
+<p><strong>Skype Id:</strong> jcodebun<br />
+<strong>Email:</strong> jcodebun@gmail.com<br />
+<strong>WhatsApp:</strong> +91 8827363777<br />
+<strong>Price:</strong> 1500 INR</p>
+<p>Note: If you need the source code you can contact me. We will provide complete source code and all the required things like Database. <strong>We have created an STEP by STEP configuration tutorial to help you in the configuration process.</strong></p>
+<h1>Online tourism management project Demo</h1>
+<iframe  id="_ytid_99326"  width="769" height="433"  data-origwidth="769" data-origheight="433"  src="https://www.youtube.com/embed/ADdosAkU1G0?enablejsapi=1&autoplay=0&cc_load_policy=0&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" class="__youtube_prefs__  no-lazyload" title="YouTube player"  allow="autoplay; encrypted-media" allowfullscreen data-no-lazy="1" data-skipgform_ajax_framebjll=""></iframe>
+<p><strong><a href="https://codebun.com/java-web-project-configuration/">Step by Step Tutorial to configure Java project</a></strong></p>
+<p><strong><a href="https://codebun.com/viva-questions-and-answer-for-java-project/">Viva Questions and answer for java project</a></strong></p>
+<p><strong><a href="https://codebun.com/category/complete-java-project-with-source-code/">Check new projects in java</a></strong></p>
+<p>If you find any kind of difficulties during the configuration. We will also provide configuration support remotely. You can contact at <strong>jcodebun@gmail.com.</strong></p>
+<h2><strong><a href="https://codedec.com/course/java-web-application-development-tutorial/" target="_blank" rel="noopener noreferrer">Online tourism management development tutorial</a></strong></h2>
+<p>If you are a beginner and want to learn the complete step by step development about this project. We prepared the complete step by step<a href="https://codedec.com/course/java-web-application-development-tutorial/" target="_blank" rel="noopener noreferrer"> java web application development tutorial</a></p>
+<p>This tutorial will give you enough ideas to develop a basic java web application that follows the industry standard while writing the code.</p>
+<div class='code-block code-block-11' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1471627484549287"
+     data-ad-slot="2095849338"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<!-- AI CONTENT END 2 -->
+							</div><!-- .entry-content -->
+
+			<footer class="entry-meta entry-meta-footer">
+							</footer><!-- .entry-meta -->
+
+		</div><!-- .post-content-wrapper -->
+	</article><!-- #post-## -->
+</div><!-- .post-wrapper-hentry -->
+
+							
+<div class="diwp-custom-box related-post-wrap">
+
+	<h3>You May Also Like These <span></span> Posts:</h3>       
+
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/java-interview-questions-and-answers-for-fresher/">
+				<img width="450" height="350" src="https://codebun.com/wp-content/uploads/2020/09/Java-Interview-Questions-and-Answers.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://codebun.com/wp-content/uploads/2020/09/Java-Interview-Questions-and-Answers.png 450w, https://codebun.com/wp-content/uploads/2020/09/Java-Interview-Questions-and-Answers-300x233.png 300w" sizes="(max-width: 450px) 100vw, 450px" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/java-interview-questions-and-answers-for-fresher/">
+				Java Interview Questions and Answers for fresher			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/write-java-program-swap-characters/">
+				<img width="150" height="150" src="https://codebun.com/wp-content/uploads/2017/10/Problem-solving-in-java.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Program In Java" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/write-java-program-swap-characters/">
+				Write a java program to Swap Characters.			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/java-oops-interview-questions-and-answers/">
+				<img width="150" height="150" src="https://codebun.com/wp-content/uploads/2017/09/featuredImage1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="toString() method in Java" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/java-oops-interview-questions-and-answers/">
+				Java OOPS interview questions and answers || Class and Object in Java.			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/write-java-program-check-ip-validator/">
+				<img width="150" height="150" src="https://codebun.com/wp-content/uploads/2017/10/Problem-solving-in-java.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Program In Java" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/write-java-program-check-ip-validator/">
+				Write a java program to check IP Validator.			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/online-book-shop-project-in-java-with-source-code-and-report/">
+				<img width="150" height="150" src="https://codebun.com/wp-content/uploads/2019/09/Online-book-store-project-in-java-150x150.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Online book shop project in java" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/online-book-shop-project-in-java-with-source-code-and-report/">
+				Online book shop project in java with source code and report			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		
+	<div class="related-items">
+		
+		<div class="related-thumbnail">
+			<a href="https://codebun.com/how-to-find-element-in-selenium-web-driver/">
+				<img width="150" height="150" src="https://codebun.com/wp-content/uploads/2019/10/Findelement-by-Xpath-150x150.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to FindElement in selenium web driver" />					
+			</a>
+		</div>
+		
+		<div class="related-title">
+			<a href="https://codebun.com/how-to-find-element-in-selenium-web-driver/">
+				How to Find Element in selenium web driver			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	
+	</div>
+	
+		<div class="clearfix"></div>
+</div><!-- .diwp-custom-box -->
+
+
+							
+<div class="entry-author">
+	<div class="author-avatar">
+		<img alt='' src='https://secure.gravatar.com/avatar/74c160c6ddeb5ad1415edf50973c6f4e?s=100&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/74c160c6ddeb5ad1415edf50973c6f4e?s=200&#038;d=mm&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' />	</div><!-- .author-avatar -->
+
+	<div class="author-heading">
+		
+		<h2 class="author-title">
+            <span class="author-name">Bhupendra Patidar</span>        </h2>
+
+        <p class="author-bio">
+			I am Bhupendra Patidar, full-stack Java developer, and Automation engineer. I am enjoying programming since last 6 years and sharing my experiences with the community. Thank You to visit this article:). Reach me over the 
+Skype: jcodebun, Mail: jcodebun@gmail.com		</p><!-- .author-bio -->
+
+	</div><!-- .author-heading -->
+
+	
+</div><!-- .entry-auhtor -->
+
+							
+							
+<div id="comments" class="comments-area">
+
+	
+		<div class="comments-area-wrapper">
+
+		<h2 class="comments-title">
+			One Reply to &ldquo;Online tourism management project in java with source code and project report&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-1281" class="comment even thread-even depth-1">
+			<article id="div-comment-1281" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/36d0f4bec0919c8aee42f686985146b1?s=68&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/36d0f4bec0919c8aee42f686985146b1?s=136&#038;d=mm&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' />						<b class="fn"><a href='http://WWW.github.com' rel='external nofollow ugc' class='url'>Shriganesh</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://codebun.com/online-tourism-management-project-in-java-with-source-code-and-project-report/#comment-1281">
+							<time datetime="2021-04-17T17:32:01+05:30">
+								April 17, 2021 at 5:32 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hi sir please send me the source code of tourism system</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	</div><!-- .comments-area-wrapper -->
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/online-tourism-management-project-in-java-with-source-code-and-project-report/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://codebun.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" /></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="aiowps-captcha"><label for="aiowps-captcha-answer">Please enter an answer in digits:</label><div class="aiowps-captcha-equation"><strong>20 &#8722; 1 = <input type="hidden" name="aiowps-captcha-string-info" id="aiowps-captcha-string-info" value="7xorhtjyce" /><input type="hidden" name="aiowps-captcha-temp-string" id="aiowps-captcha-temp-string" value="1623586050" /><input type="text" size="2" id="aiowps-captcha-answer" name="aiowps-captcha-answer" value="" autocomplete="off" /></strong></div></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='2706' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="42cab47d08" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="126"/></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+												</div><!-- .post-wrapper -->
+
+					</main><!-- #main -->
+				</div><!-- #primary -->
+
+				<div id="site-sidebar" class="sidebar-area col-16 col-sm-16 col-md-16 col-lg-5 col-xl-5 col-xxl-5">
+		
+
+	<div id="secondary" class="sidebar widget-area sidebar-widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search">
+<form role="search" method="get" class="search-form" action="https://codebun.com/">
+	<label>
+
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form>
+</aside><aside id="media_image-2" class="widget widget_media_image"><a href="https://codebun.com/java-training-for-placement/"><img width="212" height="300" src="https://codebun.com/wp-content/uploads/2021/06/Java-Training-212x300.jpg" class="image wp-image-4092  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://codebun.com/wp-content/uploads/2021/06/Java-Training-212x300.jpg 212w, https://codebun.com/wp-content/uploads/2021/06/Java-Training-724x1024.jpg 724w, https://codebun.com/wp-content/uploads/2021/06/Java-Training-768x1086.jpg 768w, https://codebun.com/wp-content/uploads/2021/06/Java-Training-1086x1536.jpg 1086w, https://codebun.com/wp-content/uploads/2021/06/Java-Training-1448x2048.jpg 1448w, https://codebun.com/wp-content/uploads/2021/06/Java-Training-769x1088.jpg 769w, https://codebun.com/wp-content/uploads/2021/06/Java-Training.jpg 1587w" sizes="(max-width: 212px) 100vw, 212px" /></a></aside><aside id="custom_html-13" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- top sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:280px"
+     data-ad-client="ca-pub-1471627484549287"
+     data-ad-slot="9284908369"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+											<li>
+					<a href="https://codebun.com/online-product-selling-project-in-java-using-jsp-and-servlet/">Online Product Selling Project in java using Jsp and servlet</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/create-a-simple-counter-application-in-reactjs/">Create a simple Counter application in ReactJs</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/online-food-delivery-project-in-spring-boot-and-hibernate/">Online food Delivery Project in Spring Boot and Hibernate</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/java-projects-idea-college-projects-for-students/">Java Projects Idea in 2021 &#038; College Project for Students</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/how-to-create-requirement-documentation-for-a-web-application/">How to Create Requirement Documentation for a web application</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/how-to-add-update-delete-records-in-mysql-database/">How to Add, Update, Delete records in MySQL Database?</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/how-to-change-the-name-of-existing-database-in-mysql/">How to change the name of existing database in mysql</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/what-is-er-entity-relationship-diagram/">What is ER (Entity Relationship Diagram)</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/rto-management-system-project-in-java-with-source-code-and-project-report/">RTO Management System Project in Java with source code and project report</a>
+									</li>
+											<li>
+					<a href="https://codebun.com/campus-placement-management-system-project-in-java-with-source-code/">Campus Placement Management System Project in Java with source code</a>
+									</li>
+					</ul>
+		</aside><aside id="custom_html-14" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Side bar banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:1050px"
+     data-ad-client="ca-pub-1471627484549287"
+     data-ad-slot="9826875985"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside>	</div><!-- .sidebar -->
+</div><!-- .col-* columns of main sidebar -->
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- .site-content-inside -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		
+<div class="site-info">
+	<div class="site-info-inside">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col footer-col-wrap">
+					<div class="credits-wrapper">
+						<div class="credits credits-blog">&copy; Copyright 2021 &#8211; <a href="https://codebun.com/">Codebun</a></div><div class="credits credits-designer">Allium Theme by <a href="https://templatelens.com">TemplateLens</a> &sdot; Powered by <a href="https://wordpress.org">WordPress</a></div>					</div><!-- .credits -->
+
+					<div class="footer-menu-wrapper">
+						<div class="footer-header-menu"><ul id="menu-footer-menu" class="menu"><li id="menu-item-1911" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1911"><a href="https://codebun.com/about-us/">Who We Are?</a></li>
+<li id="menu-item-2308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308"><a href="https://codebun.com/services-and-plan/">Services And Plan</a></li>
+<li id="menu-item-1912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1912"><a href="https://codebun.com/contact/">Contact Us</a></li>
+<li id="menu-item-1351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351"><a href="https://codebun.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-3524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3524"><a href="https://codebun.com/terms-and-conditions/">Terms And Conditions</a></li>
+<li id="menu-item-3535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3535"><a href="https://codebun.com/internship/">Internship</a></li>
+</ul></div>					</div>
+
+				</div><!-- .col -->
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+
+	</div><!-- .site-info-inside -->
+</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+</div><!-- #page .site-wrapper -->
+
+			<!--facebook like and share js -->
+			<div id="fb-root"></div>
+			<script>
+				(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		<script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(0);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})
+</script>
+    <script>
+        window.addEventListener('sfsi_functions_loaded', function() {
+            if (typeof sfsi_plugin_version == 'function') {
+                sfsi_plugin_version(2.58);
+            }
+        });
+
+        function sfsi_processfurther(ref) {
+            var feed_id = 'VE5xUUZ1U2MxVFlJcU9UT2o1UTVUb3hhamtRVzBNa0NtUGhWNFZueml0S0RHdHNqc25PbGVQYVRaM01pbHhiNm9XUEJtdE54RVdoWTlEZHlOTFRLUHFxNnFhMW9tUmFLK3ZKYXgwaDlaUTV6RlNodi9CYktWYi9pNFFsNXdVVmR8WFkrNUZOY0hVRDdQQUNVakdNczFBMDJqMXFIL1R0dE5xbStYaWI3bUxMMD0=';
+            var feedtype = 8;
+            var email = jQuery(ref).find('input[name="email"]').val();
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if ((email != "Enter your email") && (filter.test(email))) {
+                if (feedtype == "8") {
+                    var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+                    window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+                    return true;
+                }
+            } else {
+                alert("Please enter email address");
+                jQuery(ref).find('input[name="email"]').focus();
+                return false;
+            }
+        }
+    </script>
+    <style type="text/css" aria-selected="true">
+        .sfsi_subscribe_Popinner {
+            width: 100% !important;
+
+            height: auto !important;
+
+            padding: 18px 0px !important;
+
+            background-color: #ffffff !important;
+
+        }
+
+        .sfsi_subscribe_Popinner form {
+
+            margin: 0 20px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner h5 {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            margin: 0 0 10px !important;
+
+            padding: 0 !important;
+
+        }
+
+        .sfsi_subscription_form_field {
+
+            margin: 5px 0 !important;
+
+            width: 100% !important;
+
+            display: inline-flex;
+
+            display: -webkit-inline-flex;
+
+        }
+
+        .sfsi_subscription_form_field input {
+
+            width: 100% !important;
+
+            padding: 10px 0px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+            /* Firefox 18- */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+            /* Firefox 19+ */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=submit] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            background-color: #dedede !important;
+
+        }
+
+        .sfsi_shortcode_container {
+            float: left;
+        }
+
+        .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+            position: relative !important;
+        }
+
+        .sfsi_shortcode_container .sfsi_holders {
+            display: none;
+        }
+
+            </style>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/codebun.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2'></script>
+<script type='text/javascript' src='https://codebun.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/codebun.com\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/codebun.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/codebun.com\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp/js/enquire.js?ver=2.1.6'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp/js/fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp/js/hover-intent.js?ver=r7'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp/js/superfish.js?ver=1.7.10'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/themes/diwp/js/custom.js?ver=1.0'></script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=kSrJULevIh39w2b'></script>
+<script type='text/javascript'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":1,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":false,"theme":"eclipse","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='https://codebun.com/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=13.4.1.1'></script>
+<script type='text/javascript' src='https://codebun.com/wp-includes/js/wp-embed.min.js?ver=09b5c823d5bb4f5888c104dfece82bc0'></script>
+<script async="async" type='text/javascript' src='https://codebun.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.6'></script>
+</body>
+</html>
